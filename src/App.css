@@ -1,0 +1,52 @@
+body {
+  background-color: rgba(0, 0, 0, 0.801);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.header input {
+  background-color: rgba(70, 64, 64, 0.575);
+  border: 5px thin white;
+  font-size: 20px;
+}
+
+.header button {
+  background-color: rgb(92, 131, 168);
+  color: whitesmoke;
+  text-align: center;
+  font-weight: bold;
+  border: 5px thin white;
+  font-size: 20px;
+}
+
+.header button:hover {
+  background-color: rgb(23, 23, 146);
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  background-color: lightgray;
+  border: 2px thin black;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+li:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+
+.unchecked {
+  font-weight: normal;
+
+}
+
+.checked {
+  font-weight: bold;
+  text-decoration: line-through;
+}
